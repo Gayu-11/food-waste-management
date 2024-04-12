@@ -1,0 +1,462 @@
+<html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>FOOD WASTE MANAGEMENT</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+	<!-- CSS here -->
+	<link rel="stylesheet" href="../static/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../static/assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../static/assets/css/slicknav.css">
+    <link rel="stylesheet" href="../static/assets/css/flaticon.css">
+    <link rel="stylesheet" href="../static/assets/css/progressbar_barfiller.css">
+    <link rel="stylesheet" href="../static/assets/css/gijgo.css">
+    <link rel="stylesheet" href="../static/assets/css/animate.min.css">
+    <link rel="stylesheet" href="../static/assets/css/animated-headline.css">
+	<link rel="stylesheet" href="../static/assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="../static/assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="../static/assets/css/themify-icons.css">
+	<link rel="stylesheet" href="../static/assets/css/slick.css">
+	<link rel="stylesheet" href="../static/assets/css/nice-select.css">
+	<link rel="stylesheet" href="../static/assets/css/style.css">
+	
+	<script language="javascript">
+  function validate()
+  {
+  if(document.form1.org_name.selectedIndex==0)
+	{
+	alert("Select the Organisation");
+	return false;
+	}
+  	if(document.form1.name.value=="")
+	{
+	alert("Enter the Name");
+	document.form1.name.focus();
+	return false;
+	}
+	
+	
+	
+	if(document.form1.mobile.value=="")
+	{
+	alert("Enter the Contact No.");
+	document.form1.mobile.focus();
+	return false;
+	}
+	if (isNaN(document.form1.mobile.value))
+                {
+                    alert("Invalid Mobile No.");
+                    document.form1.mobile.select();
+                    return false;
+                }
+				if (document.form1.mobile.value.length != 10)
+                {
+                    alert("10 digists only allowed!!");
+                    document.form1.mobile.select();
+                    return false;
+                }
+	if(document.form1.email.value=="")
+	{
+	alert("Enter the E-mail");
+	document.form1.email.focus();
+	return false;
+	}
+	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(document.form1.email.value))  
+				  {  
+					//return (true)  
+				  }  
+				  else
+				  {
+					alert("You have entered an invalid email address!");
+					document.form1.email.select();
+					return false; 
+				  }
+	
+	
+	if(document.form1.address.value=="")
+	{
+	alert("Enter the Address");
+	document.form1.address.focus();
+	return false;
+	}
+	
+	
+	if(document.form1.username.value=="")
+	{
+	alert("Enter the Username");
+	document.form1.username.focus();
+	return false;
+	}
+	if(document.form1.password.value=="")
+	{
+	alert("Enter the Password");
+	document.form1.password.focus();
+	return false;
+	}
+	
+	
+	
+return true;
+  }
+  </script>
+    <style type="text/css">
+<!--
+.style1 {color: #000000}
+.style2 {color: #FF0000}
+-->
+    </style>
+</head>
+<body>
+    <!-- ? Preloader Start -->
+    
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header ">
+                <div class="header-top d-none d-lg-block">
+                    <div class="container-fluid">
+                        <div class="col-xl-12">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="header-info-left d-flex">
+                                    <ul>     
+                                        <li>Phone: +99 (0) 101 0000 888</li>
+                                        <li>Email: noreply@yourdomain.com</li>
+                                    </ul>
+                                    <div class="header-social">    
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a  href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="header-info-right d-flex align-items-center">
+                                    <div class="select-this">
+                                        <form action="#">
+                                            <div class="select-itms">
+                                                <select name="select" id="select1">
+                                                    <option value="">English</option>
+                                                    <option value="">Bangla</option>
+                                                    <option value="">Arabic</option>
+                                                    <option value="">Hindi</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <ul class="contact-now">     
+                                        <li><a href="#">Subscribe Now</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom  header-sticky">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-2 col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html"><h3>FOOD WASTE MANAGEMENT</h3></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10">
+                                <div class="menu-wrapper  d-flex align-items-center justify-content-end">
+                                    <!-- Main-menu -->
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">                                                                                          
+                                               <ul id="navigation">                                                                                          
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="/provider_log">Food provider</a></li>
+                                                <li><a href="/user_log">Beneficiary</a></li>
+                                             
+                                             
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <!-- Header-btn -->
+                                    <div class="header-right-btn d-none d-lg-block ml-20">
+                                        <a href="/admin_log" class="btn header-btn">Admin</a>
+                                    </div>
+                                </div>
+                            </div> 
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <!-- header end -->
+    <main>
+    <!--? Hero Start -->
+    <div class="slider-area2">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 pt-20 text-center">
+                            <h2>Beneficiary</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+    
+    <!--? About Law Start-->
+    <section class="about-low-area section-padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-10">
+                    <div class="about-caption mb-50">
+        <!-- Section Tittle -->
+        <div class="section-tittle mb-35">
+                            <span>Beneficiary</span>
+                            <h2>Registration</h2>
+                        </div>
+        <!-- Registration Form -->
+        <form action="" method="post" class="registration-form">
+            <!-- Name Input -->
+			<div class="select-itms">
+                                                <select name="org_name" id="select1" class="single-input">
+                                                    <option value="">-Select one-</option>
+                                                    <option value="orphanage">Orphanage</option>
+                                                    <option value="former">Former</option>
+                                                    <option value="fertilizer_company">Fertilizer Company</option>
+                                                </select>
+              </div><div>&nbsp;</div>
+      
+
+            <!-- Email Input -->
+            <div class="form-group">
+                <input type="text" id="email" class="single-input" name="name" placeholder="Name" required>
+            </div>
+			<div class="form-group">  
+                <input type="text" class="single-input" name="address" placeholder="Address" required>
+            </div>
+			<div class="form-group">  
+                <input type="text" class="single-input" name="city" placeholder="City" required>
+            </div>
+			<div class="form-group">  
+                <input type="text" class="single-input" name="mobile" placeholder="Contact no." required>
+            </div>
+			<div class="form-group">  
+                <input type="text" class="single-input" name="email" placeholder="Email address" required>
+            </div>
+			<div class="form-group">  
+                <input type="text" class="single-input" name="username" placeholder="username" required>
+            </div>
+			<div class="form-group">  
+                <input type="text" class="single-input" name="password" placeholder="Password" required>
+            </div>
+			<div class="form-group">  
+                <input type="text" class="single-input" name="longitude" placeholder="Longitude" required>
+            </div>
+			<div class="form-group">  
+                <input type="text" class="single-input" name="latitude" placeholder="Latitude" required>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit" class="btn" onClick="return validate()">Submit</button><div>&nbsp;</div>
+			
+			<li><a href="https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/utils/geocoder" target="_blank"><span class="style2">Ge<span class="style2">t Location</span></span></a></li>
+			<div>&nbsp;</div>
+			
+			<p>Already have an account  <a href="/user_log" class="style1">Click here</a></p>
+			
+			
+			{% if msg=="success" %}
+				  <span style="color:#009933">Registration successfully...</span>
+				  
+				  <script>
+//Using setTimeout to execute a function after 5 seconds.
+setTimeout(function () {
+   //Redirect with JavaScript
+   window.location.href= '/user_log';
+}, 4000);
+</script>
+
+				  {% endif %}
+				  {% if msg=="fail" %}
+				  <span style="color:#FF0000">Oops, try again</span>
+				  
+				  {% endif %}
+        </form>    
+    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <!-- about-img -->
+                    <div class="about-img "> 
+					  <div class="about-font-img d-none d-lg-block">
+                            <img src="../static/assets/img/gallery/about11.jpg" alt="">
+                        </div> 
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Law End-->
+   
+    </main>
+    <footer>
+        <div class="footer-wrapper section-bg2" data-background="../static/assets/img/gallery/footer_bg.png">
+            <!-- Footer Top-->
+            <div class="footer-area footer-padding">
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <div class="footer-tittle">
+                                    <div class="footer-logo mb-20">
+                                        <a href="index.html"><h3>FOOD WASTE</h3></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Contact Info</h4>
+                                    <ul>
+                                        <li>
+                                            <p>Address :Your address goes here, your demo address.</p>
+                                        </li>
+                                        <li><a href="#">Phone : +8880 44338899</a></li>
+                                        <li><a href="#">Email : info@colorlib.com</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Important Link</h4>
+                                    <ul>
+                                        <li><a href="#"> View Project</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Testimonial</a></li>
+                                        <li><a href="#">Proparties</a></li>
+                                        <li><a href="#">Support</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Newsletter</h4>
+                                    <div class="footer-pera footer-pera2">
+                                    <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
+                                </div>
+                                <!-- Form -->
+                                <div class="footer-form" >
+                                    <div id="mc_embed_signup">
+                                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                        method="get" class="subscribe_form relative mail_part">
+                                            <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                                            class="placeholder hide-on-focus" onFocus="this.placeholder = ''"
+                                            onblur="this.placeholder = ' Email Address '">
+                                            <div class="form-icon">
+                                                <button type="submit" name="submit" id="newsletter-submit"
+                                                class="email_icon newsletter-submit button-contactForm"><img src="assets/img/gallery/form.png" alt=""></button>
+                                            </div>
+                                            <div class="mt-10 info"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-bottom -->
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col-xl-10 col-lg-9 ">
+                               
+                            </div>
+                            <div class="col-xl-2 col-lg-3">
+                                <div class="footer-social f-right">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a  href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fas fa-globe"></i></a>
+                                    <a href="#"><i class="fab fa-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <div id="back-top" >
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <!-- JS here -->
+
+    <script src="../static/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="../static/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../static/assets/js/popper.min.js"></script>
+    <script src="../static/assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="../static/assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="../static/assets/js/owl.carousel.min.js"></script>
+    <script src="../static/assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="../static/assets/js/wow.min.js"></script>
+    <script src="../static/assets/js/animated.headline.js"></script>
+    <script src="../static/assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- Date Picker -->
+    <script src="../static/assets/js/gijgo.min.js"></script>
+    <!-- Nice-select, sticky -->
+    <script src="../static/assets/js/jquery.nice-select.min.js"></script>
+    <script src="../static/assets/js/jquery.sticky.js"></script>
+    <!-- Progress -->
+    <script src="../static/assets/js/jquery.barfiller.js"></script>
+    
+    <!-- counter , waypoint,Hover Direction -->
+    <script src="../static/assets/js/jquery.counterup.min.js"></script>
+    <script src="../static/assets/js/waypoints.min.js"></script>
+    <script src="../static/assets/js/jquery.countdown.min.js"></script>
+    <script src="../static/assets/js/hover-direction-snake.min.js"></script>
+
+    <!-- contact js -->
+    <script src="../static/assets/js/contact.js"></script>
+    <script src="../static/assets/js/jquery.form.js"></script>
+    <script src="../static/assets/js/jquery.validate.min.js"></script>
+    <script src="../static/assets/js/mail-script.js"></script>
+    <script src="../static/assets/js/jquery.ajaxchimp.min.js"></script>
+    
+    <!-- Jquery Plugins, main Jquery -->	
+    <script src="../static/assets/js/plugins.js"></script>
+    <script src="../static/assets/js/main.js"></script>
+    
+    </body>
+</html>
